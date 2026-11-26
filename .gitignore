@@ -1,0 +1,16 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+organizations/
+crypto-config/
+wallet/
+wallets/
+*.pem
+*_sk
+*.key
+channel-artifacts/
+.streamlit/secrets.toml

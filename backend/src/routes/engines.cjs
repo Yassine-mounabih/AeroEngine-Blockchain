@@ -35,4 +35,6 @@ router.get("/:id/history",
 router.get("/:id/maintenance",
     pendingTransaction("GetMaintenanceHistory"));
 
+router.get("/:id/maintenance/requests", pendingTransaction("GetMaintenanceRequests"));
+
 module.exports = router;
